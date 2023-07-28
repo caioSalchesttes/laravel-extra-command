@@ -1,5 +1,6 @@
 {
     "name": "caio/laravel-extra-commands",
+    "description": "Extra commands for laravel",
     "autoload": {
         "psr-4": {
             "Caio\\LaravelExtraCommands\\": "src/"
@@ -21,5 +22,6 @@
                 "Caio\\LaravelExtraCommands\\ServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
