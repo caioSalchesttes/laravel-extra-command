@@ -1,0 +1,15 @@
+{
+    "name": "caio/laravel-extra-commands",
+    "autoload": {
+        "psr-4": {
+            "Caio\\LaravelExtraCommands\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "caio",
+            "email": "caiosalchesttes@hotmail.com"
+        }
+    ],
+    "require": {}
+}
