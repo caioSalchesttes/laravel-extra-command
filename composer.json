@@ -11,5 +11,15 @@
             "email": "caiosalchesttes@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caio\\LaravelExtraCommands\\ServiceProvider"
+            ]
+        }
+    }
 }

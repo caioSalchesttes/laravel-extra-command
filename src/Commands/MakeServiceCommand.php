@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Caio\LaravelExtraCommands;
 
 use Illuminate\Console\Command;
 
@@ -23,7 +23,7 @@ class MakeServiceCommand extends Command
 
     public function getStubPath()
     {
-        return base_path('stubs');
+        return __DIR__ . '/../../stubs';
     }
 
     public function filePath()
